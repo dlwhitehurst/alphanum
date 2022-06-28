@@ -1,7 +1,7 @@
 {
-  "name": "states",
+  "name": "alphanum",
   "version": "1.0.0",
-  "description": "REST CRUD API for States using Node.js, Express and MySQL",
+  "description": "REST API for testing using Node.js, Express",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +9,6 @@
   "keywords": [
     "nodejs",
     "express",
-    "mysql",
     "restapi"
   ],
   "author": "dlwhitehurst",
@@ -17,7 +16,8 @@
   "dependencies": {
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "mysql": "^2.17.1",
+    "express-jwt": "^5.3.1",
+    "jwks-rsa": "^2.1.4",
     "swagger-ui-express": "^4.1.6"
   }
 }
